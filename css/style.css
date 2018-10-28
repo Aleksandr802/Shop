@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700&subset=cyrillic');
+
+* {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: url("../image/bg/full.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #eeeeee;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px 20px 0 20px;
+    min-height: 100vh;
+    position: relative;
+}
+.goods_item {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-top: solid 0 gray;
+    border-bottom: solid 1px Gainsboro;
+    overflow: hidden;
+    margin: 10px 0px 10px 0px;
+}
+.goods_photo {
+    float: left;
+    width: 70%;
+    clear: both;
+    margin-bottom: 50px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 28px;
+    margin: 10px 0 10px 0;
+}
+h2 {
+    font-size: 1.5rem;
+    margin: 10px 0 10px 0;
+    border-bottom: solid 1px LightGrey;
+}
+
+.menu {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 700;
+    margin: 5px 10px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    background: #eeeeee;
+    border-top: 2px #999999 solid;
+    padding: 10px;
+    background: url("../image/bg/pattern.jpg");
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 40px;
+}
+
+.home_photo {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.goods_list {
+    margin-bottom: 20px;
+}
+
+.goods_view {
+    float: right;
+}
+
+.goods_price {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    float: right;
+}
+.goods_price span {
+    color: #0000FF;
+    font-size: 18px;
+}
+.logo {
+   width: 100px;
+
+}
+.header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px #999 solid;
+}
+.header__right {
+    flex-grow: 1;
+
+    text-align: right;
+}
+.header__contacts span {
+    font-size: 10px;
+    margin-right: 20px;
+}
+.header_contacts-phone {
+    margin-right: 20px;
+}
+.goods_grid_description {
+    font-size: 10px;
+    overflow: hidden;
+    height: 45px;
+}
+.goods_grid_item {
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.goods_grid_info h3 {
+        font-size: 16px;
+}
